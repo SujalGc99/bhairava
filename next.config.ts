@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
-/* config options here */
-images: { unoptimized: true },
+const nextConfig: NextConfig = {
+  /* config options here */
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
